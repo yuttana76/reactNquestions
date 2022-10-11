@@ -21,10 +21,10 @@ export const QuesCard = ({chooseAns,question}) => {
           
           {ans.map((data) => {
             return (
-              <View style={styles.text_container}>
+              <View style={styles.text_container} key={data.no}>
                 {/* <Text  style={styles.text_ans} key={data.no} > {data.desc}</Text> */}
 
-                <Button tyle={styles.text_ans} key={data.no} 
+                <Button tyle={styles.text_ans} 
           title= {data.desc}
           onPress={() => chooseAns(data.no)}
         />
@@ -64,6 +64,8 @@ const styles = StyleSheet.create({
      marginLeft:5,
   },
   card_title: {
+    flex: 1,
+    justifyContent: "center",
      color: "#696969",
      fontSize:25,
      fontWeight:"bold",
@@ -75,7 +77,6 @@ const styles = StyleSheet.create({
     padding: 5,
     backgroundColor:"#add8e6",
     borderRadius:10,
-    // backgroundColor: "rgba(0,0,0, 0.3)",
     margin: 5,
   },
   text_ans:{

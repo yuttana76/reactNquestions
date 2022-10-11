@@ -4,7 +4,7 @@ import {QuesCard} from './ques-card'
 
 const questionair=[
   {"id":1,
-  "desc":"สีที่ชอบคือ",
+  "desc":"Question 1",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
@@ -14,7 +14,7 @@ const questionair=[
 },
   {
     "id":2,
-  "desc":"สัตว์ที่ชอบคือ",
+  "desc":"Question 2",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
@@ -24,7 +24,7 @@ const questionair=[
 },
   {
     "id":3,
-  "desc":"ประเทศทีชอบคือ",
+  "desc":"Question 3",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
@@ -34,7 +34,7 @@ const questionair=[
 },
   {
     "id":4,
-  "desc":"ภาษาที่ชอบคือ",
+  "desc":"Question 4",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
@@ -44,7 +44,7 @@ const questionair=[
 },
   {
     "id":5,
-  "desc":"คอมพ์ที่ชอบคือ",
+  "desc":"Question 5",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
@@ -54,14 +54,54 @@ const questionair=[
 },
   {
     "id":6,
-  "desc":"บุคคลด้านไอที ที่ชอบคือ",
+  "desc":"Question 6",
   "ans":[
     {"no":"1","desc":"ans 1"},
     {"no":"2","desc":"ans 2"},
     {"no":"3","desc":"ans 3"},
     {"no":"4","desc":"ans 4"}
   ]
-}
+},
+  {
+    "id":7,
+  "desc":"Question 7",
+  "ans":[
+    {"no":"1","desc":"ans 1"},
+    {"no":"2","desc":"ans 2"},
+    {"no":"3","desc":"ans 3"},
+    {"no":"4","desc":"ans 4"}
+  ]
+  },
+  {
+    "id":8,
+  "desc":"Question 8",
+  "ans":[
+    {"no":"1","desc":"ans 1"},
+    {"no":"2","desc":"ans 2"},
+    {"no":"3","desc":"ans 3"},
+    {"no":"4","desc":"ans 4"}
+  ]
+  },
+  {
+    "id":9,
+  "desc":"Question 9",
+  "ans":[
+    {"no":"1","desc":"ans 1"},
+    {"no":"2","desc":"ans 2"},
+    {"no":"3","desc":"ans 3"},
+    {"no":"4","desc":"ans 4"}
+  ]
+  },
+  {
+    "id":10,
+  "desc":"Question 10",
+  "ans":[
+    {"no":"1","desc":"ans 1"},
+    {"no":"2","desc":"ans 2"},
+    {"no":"3","desc":"ans 3"},
+    {"no":"4","desc":"ans 4"}
+  ]
+  },
 ];
 
 export const QuesScreen = ({ ques = {} }) => {
